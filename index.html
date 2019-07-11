@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <title>Vuesax E-commerce</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+     crossorigin="anonymous">
+
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="fonts/css/all.css" rel="stylesheet">
+    
+
+</head>
+
+<body>
+
+    <div class="holder">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar" class="sidebar">
+            <div class="sidebar-header">
+                <img src="images/vuesax.png" alt="logo" title="Vuesax" /><span>Vuesax</span><span class="logo-oval"><img src="images/Oval.png" /></span>
+            </div>
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-tachometer-slow"></i>Dashboard</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">Dashboard-1</a>
+                        </li>
+                        <li>
+                            <a href="#">Dashbaord-2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active"><a href="#"><i class="fa fa-tachometer"></i>Analytics</a></li>
+                <li><a href="#"><i class="far fa-shopping-cart"></i>E-Commerce</a></li>
+                <a href="#" class="list-group">APP</a>
+                <li><a href="#"><i class="far fa-envelope"></i>Email</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>Chat</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>Todo</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>Calendar</a></li>
+                <a href="#" class="list-group">UI</a>
+                <li><a href="#gridSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-tachometer-slow"></i>Grid</a>
+                    <ul class="collapse list-unstyled" id="gridSubmenu">
+                        <li>
+                            <a href="#">Grid-1</a>
+                        </li>
+                        <li>
+                            <a href="#">Grid-2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#colorSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-tachometer-slow"></i>colors</a>
+                    <ul class="collapse list-unstyled" id="colorSubmenu">
+                        <li>
+                            <a href="#">Color-1</a>
+                        </li>
+                        <li>
+                            <a href="#">color-2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#cardSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-tachometer-slow"></i>Cards</a>
+                    <ul class="collapse list-unstyled" id="cardSubmenu">
+                        <li>
+                            <a href="#">Card 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Card 2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#tableSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-tachometer-slow"></i>Table</a>
+                    <ul class="collapse list-unstyled" id="tableSubmenu">
+                        <li>
+                            <a href="#">Table 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Table 2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="far fa-envelope"></i>Components</a></li>
+                <a href="#" class="list-group">FORMS</a>
+                <li><a href="#feSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-tachometer-slow"></i>Form Elements</a>
+                    <ul class="collapse list-unstyled" id="feSubmenu">
+                        <li>
+                            <a href="#">Element 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Element 2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="far fa-envelope"></i>Form Layouts</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>Form Wizard</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>Form Validation</a></li>
+                <a href="#" class="list-group">PAGES</a>
+                <li><a href="#authSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-tachometer-slow"></i>Authentication</a>
+                    <ul class="collapse list-unstyled" id="authSubmenu">
+                        <li>
+                            <a href="#">Auth 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Auth 2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="far fa-envelope"></i>Coming Soon</a></li>
+                <li><a href="#errorSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-tachometer-slow"></i>Error</a>
+                    <ul class="collapse list-unstyled" id="erroSubmenu">
+                        <li>
+                            <a href="#">403</a>
+                        </li>
+                        <li>
+                            <a href="#">404</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="far fa-envelope"></i>Maintenance</a></li>
+                <li><a href="#"><i class="far fa-user"></i>Profile</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>FAQ</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>Knowledge Base</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>Search</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>Invoice</a></li>
+                <a href="#" class="list-group">CHARTS &amp; MAPS</a>
+                <li><a href="#chartSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-tachometer-slow"></i>Charts</a>
+                    <ul class="collapse list-unstyled" id="chartSubmenu">
+                        <li>
+                            <a href="#">Chart 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Chart 2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="far fa-envelope"></i>Google Maps</a></li>
+                <a href="#" class="list-group">EXTENSIONSS</a>
+                <li><a href="#selectSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-tachometer-slow"></i>Select</a>
+                    <ul class="collapse list-unstyled" id="extSubmenu">
+                        <li>
+                            <a href="#">Select 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Select 2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="far fa-envelope"></i>Quill eidtor</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>Drag &amp; Drop</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>Datepicker</a></li>
+                <a href="#" class="list-group">OTHERS</a>
+                <li><a href="#menulevelSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-menu"></i>Menu Levels</a>
+                    <ul class="collapse list-unstyled" id="menulevelSubmenu">
+                        <li>
+                            <a href="#">Level 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Level 2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="far fa-envelope"></i>Disabled Menu</a></li>
+                
+            </ul>
+        </nav>
+
+        <!-- Page Content Holder -->
+        
+        <div class="content">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+                    <ul class="nav">
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-comment-o"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-star-o" style="color: #FFA84C;"></i></a></li>
+                    </ul>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">English</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-bell-o"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-search"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">John Doe</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+            <p class="desc">Card Actions | <i style="color: #7E72F2;" class="fa fa-home"></i><span style="color: #7E72F2;">e-commerce</span> <span>Electronics</span></p>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <h6 class="title">Filters</h6>
+                    <form class="filter-form">
+                        <h6>Multi Range</h6>
+                        <div class="custom-control custom-radio">
+                            <input class="custom-control-input" type="radio" id="range1" name="range">
+                            <label class="custom-control-label" for="range1">
+                                $10
+                            </label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input class="custom-control-input" type="radio" id="range2" name="range">
+                            <label class="custom-control-label" for="range2">
+                                $10-$100
+                            </label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input class="custom-control-input" type="radio" id="range3" name="range">
+                            <label class="custom-control-label" for="range3">
+                                $100-350
+                            </label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input class="custom-control-input" type="radio" id="range2" name="range">
+                            <label class="custom-control-label" for="range2">
+                                $500
+                            </label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input class="custom-control-input" type="radio" id="range5" name="range" checked>
+                            <label class="custom-control-label" for="range5">
+                                All
+                            </label>
+
+                       </div>
+
+
+                        <div class="slidecontainer"></div>
+                        <h6 class="slider">Slider<span> 199-4098</span></h6>
+                        <input id="multi1" class="slider "type="range" min="1" max="100" value="70" />
+                        <div class="line"></div> 
+
+                        <h6>Category</h6>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="cat1" name="category">
+                            <label class="custom-control-label" for="cat1">Cell Phones <span>1920</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="cat2" name="category">
+                            <label class="custom-control-label" for="cat2">Computers and Tablets <span>1820</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="cat3" name="category">
+                            <label class="custom-control-label" for="cat3">Cell Accessories <span>462</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="cat4" name="category">
+                            <label class="custom-control-label" for="cat4">Appliances <span>6556</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="cat5" name="category">
+                            <label class="custom-control-label" for="cat5">Audio <span>120</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="cat6" name="category">
+                            <label class="custom-control-label" for="cat6">iPhone Accessories <span>320</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="cat7" name="category">
+                            <label class="custom-control-label" for="cat7">Cameras and Camcoders <span>120</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="cat8" name="category">
+                            <label class="custom-control-label" for="cat8">iPhone Cases &amp; Clips <span>52</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="cat9" name="category">
+                            <label class="custom-control-label" for="cat9">TV &amp; Home Theatre <span>55</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="cat0" name="category">
+                            <label class="custom-control-label" for="cat0">Small Kitchen Appliances <span>10</span></label>
+                        </div>
+                        <div class="line"></div>
+                        <h6>Brand</h6>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="brand1" name="brand">
+                            <label class="custom-control-label" for="brand1">Insigi <span>220</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="brand2" name="brand">
+                            <label class="custom-control-label" for="brand2">Samsung <span>120</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="brand3" name="brand">
+                            <label class="custom-control-label" for="brand3">Apple <span>320</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="brand4" name="brand">
+                            <label class="custom-control-label" for="brand4">HP <span>32</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="brand5" name="brand">
+                            <label class="custom-control-label" for="brand5">Sony <span>520</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="brand6" name="brand">
+                            <label class="custom-control-label" for="brand6">Metra <span>55</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="brand7" name="brand">
+                            <label class="custom-control-label" for="brand7">Dyne <span>120</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="brand8" name="brand">
+                            <label class="custom-control-label" for="brand8">LG <span>98</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="brand9" name="brand">
+                            <label class="custom-control-label" for="brand9">Canon <span>99</span></label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="brand0" name="brand">
+                            <label class="custom-control-label" for="brand0">Speck <span>575</span></label>
+                        </div>
+                        <div class="line"></div>
+                        <h6>Rating</h6>
+                        <div>
+                            <label class="l">
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star rate"></i> &amp; Up 
+                                <span>8500</span>
+                            </label>
+                        </div>
+                        <div>
+                            <label class="l"> 
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star urate"></i> &amp; Up 
+                                <span>3250</span>
+                            </label>
+                        </div>
+                        <div>
+                            <label class="l"> 
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star urate"></i>
+                                <i class="form-star far fa-star urate"></i> &amp; Up 
+                                <span>1120</span>
+                            </label>
+                        </div>
+                        <div>
+                            <label class="l"> 
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star urate"></i>
+                                <i class="form-star far fa-star urate"></i>
+                                <i class="form-star far fa-star urate"></i> &amp; Up 
+                                <span>3320</span>
+                            </label>
+                        </div>
+                        <div>
+                            <label class="l"> 
+                                <i class="form-star far fa-star rate"></i>
+                                <i class="form-star far fa-star urate"></i>
+                                <i class="form-star far fa-star urate"></i>
+                                <i class="form-star far fa-star urate"></i>
+                                <i class="form-star far fa-star urate"></i> &amp; Up 
+                                <span>5452</span>
+                            </label>
+                        </div>
+                    </form>
+                    <div style="margin-top:30px;">
+                        <button class="btn btn-clear">CLEAR ALL FILTERS</button>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="product-nav">
+                        <span class="title">7628 Results found in 5ms</span>
+                        <div>
+                            <ul>
+                                <li><a href="#">Default</a></li>
+                                <li><a href="#"><i class="far fa-envelope"></i></a></li>
+                                <li><a href="#"><i class="far fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <form class="search-product">
+                            <input placeholder="Search here..." class="form-input white-bg" />
+                        </form>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 product-item">
+                            <div class="product">
+                                <div style="text-align: center; padding-top: 20px; height: 272px;">
+                                    <img src="images/products/apple-watch.png" class="product-img">
+                                </div>
+                                <div style="padding: 33px 10px 12px 10px">
+                                    <button class="btn-primary btn-small">3.4 <span class="far fa-star"></span></button>
+                                    <span class="price">$399</span>
+                                </div>
+                                <div style="padding-left: 10px; padding-right: 10px;">Apple Watch Series 4 GPS<br><span style="font-size: 12px; color: #2C2C2C;">Redesigned from scratch and completely revised</span></div>
+                                <div class="str">
+                                    <div class="left">
+                                        <span><i class="far fa-heart"></i> WISHLIST</span>
+                                    </div>
+                                    <div class="right">
+                                        <span><i class="far fa-shopping-cart"></i> ADD TO CART</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 product-item">
+                            <div class="product">
+                                <div style="text-align: center; padding-top: 20px; height: 272px;">
+                                    <img src="images/products/jbl-speaker.png" class="product-img">
+                                </div>
+                                <div style="padding: 33px 10px 12px 10px">
+                                    <button class="btn-primary btn-small">3.4 <span class="far fa-star"></span></button>
+                                    <span class="price">$199</span>
+                                </div>
+                                <div style="padding-left: 10px; padding-right: 10px;">JBL Speaker<br><span style="font-size: 12px; color: #2C2C2C;">Redesigned from scratch and completely revised</span></div>
+                                <div class="str">
+                                    <div class="left">
+                                        <span><i class="far fa-heart"></i> WISHLIST</span>
+                                    </div>
+                                    <div class="right">
+                                        <span><i class="far fa-shopping-cart"></i> ADD TO CART</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 product-item">
+                            <div class="product">
+                                <div style="text-align: center; padding-top: 20px; height: 272px;">
+                                    <img src="images/products/iphone-x.png" class="product-img">
+                                </div>
+                                <div style="padding: 33px 10px 12px 10px">
+                                    <button class="btn-primary btn-small">3.4 <span class="far fa-star"></span></button>
+                                    <span class="price">$899</span>
+                                </div>
+                                <div style="padding-left: 10px; padding-right: 10px;">Apple iPhone-x 120GB<br><span style="font-size: 12px; color: #2C2C2C;">Redesigned from scratch and completely revised</span></div>
+                                <div class="str">
+                                    <div class="left">
+                                        <span><i class="far fa-heart"></i> WISHLIST</span>
+                                    </div>
+                                    <div class="right">
+                                        <span><i class="far fa-shopping-cart"></i> ADD TO CART</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 product-item">
+                            <div class="product">
+                                <div style="text-align: center; padding-top: 20px; height: 272px;">
+                                    <img src="images/products/beats-headphones.png" class="product-img">
+                                </div>
+                                <div style="padding: 33px 10px 12px 10px">
+                                    <button class="btn-primary btn-small">3.4 <span class="far fa-star"></span></button>
+                                    <span class="price">$459</span>
+                                </div>
+                                <div style="padding-left: 10px; padding-right: 10px;">Beats Headphones<br><span style="font-size: 12px; color: #2C2C2C;">Redesigned from scratch and completely revised</span></div>
+                                <div class="str">
+                                    <div class="left">
+                                        <span><i class="far fa-heart"></i> WISHLIST</span>
+                                    </div>
+                                    <div class="right">
+                                        <span><i class="far fa-shopping-cart"></i> ADD TO CART</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 product-item">
+                            <div class="product">
+                                <div style="text-align: center; padding-top: 20px; height: 272px;">
+                                    <img src="images/products/macbook-pro.png" class="product-img">
+                                </div>
+                                <div style="padding: 33px 10px 12px 10px">
+                                    <button class="btn-primary btn-small">3.4 <span class="far fa-star"></span></button>
+                                    <span class="price">$2499</span>
+                                </div>
+                                <div style="padding-left: 10px; padding-right: 10px;">Apple MacBook Pro 520GB SSD<br><span style="font-size: 12px; color: #2C2C2C;">Redesigned from scratch and completely revised</span></div>
+                                <div class="str">
+                                    <div class="left">
+                                        <span><i class="far fa-heart"></i> WISHLIST</span>
+                                    </div>
+                                    <div class="right">
+                                        <span><i class="far fa-shopping-cart"></i> ADD TO CART</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 product-item">
+                            <div class="product">
+                                <div style="text-align: center; padding-top: 20px; height: 272px;">
+                                    <img src="images/products/ipad-pro.png" class="product-img">
+                                </div>
+                                <div style="padding: 33px 10px 12px 10px">
+                                    <button class="btn-primary btn-small">3.4 <span class="far fa-star"></span></button>
+                                    <span class="price">$899</span>
+                                </div>
+                                <div style="padding-left: 10px; padding-right: 10px;">Apple iPad Pro 64GB<br><span style="font-size: 12px; color: #2C2C2C;">Redesigned from scratch and completely revised</span></div>
+                                <div class="str">
+                                    <div class="left">
+                                        <span><i class="far fa-heart"></i> WISHLIST</span>
+                                    </div>
+                                    <div class="right">
+                                        <span><i class="far fa-shopping-cart"></i> ADD TO CART</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 product-item">
+                            <div class="product">
+                                <div style="text-align: center; padding-top: 20px; height: 272px;">
+                                    <img src="images/products/homepod.png" class="product-img">
+                                </div>
+                                <div style="padding: 33px 10px 12px 10px">
+                                    <button class="btn-primary btn-small">3.4 <span class="far fa-star"></span></button>
+                                    <span class="price">$399</span>
+                                </div>
+                                <div style="padding-left: 10px; padding-right: 10px;">Apple Homepod<br><span style="font-size: 12px; color: #2C2C2C;">Redesigned from scratch and completely revised</span></div>
+                                <div class="str">
+                                    <div class="left">
+                                        <span><i class="far fa-heart"></i> WISHLIST</span>
+                                    </div>
+                                    <div class="right">
+                                        <span><i class="far fa-shopping-cart"></i> ADD TO CART</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 product-item">
+                            <div class="product">
+                                <div style="text-align: center; padding-top: 20px; height: 272px;">
+                                    <img src="images/products/jlab-audio-wireless.png" class="product-img">
+                                </div>
+                                <div style="padding: 33px 10px 12px 10px">
+                                    <button class="btn-primary btn-small">3.4 <span class="far fa-star"></span></button>
+                                    <span class="price">$2499</span>
+                                </div>
+                                <div style="padding-left: 10px; padding-right: 10px;">JLAB Air Wireless Bluetooth<br><span style="font-size: 12px; color: #2C2C2C;">Redesigned from scratch and completely revised</span></div>
+                                <div class="str">
+                                    <div class="left">
+                                        <span><i class="far fa-heart"></i> WISHLIST</span>
+                                    </div>
+                                    <div class="right">
+                                        <span><i class="far fa-shopping-cart"></i> ADD TO CART</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 product-item">
+                            <div class="product">
+                                <div style="text-align: center; padding-top: 20px; height: 272px;">
+                                    <img src="images/products/magic-mouse.png" class="product-img">
+                                </div>
+                                <div style="padding: 33px 10px 12px 10px">
+                                    <button class="btn-primary btn-small">3.4 <span class="far fa-star"></span></button>
+                                    <span class="price">$99</span>
+                                </div>
+                                <div style="padding-left: 10px; padding-right: 10px;">Apple Magic Mouse<br><span style="font-size: 12px; color: #2C2C2C;">Redesigned from scratch and completely revised</span></div>
+                                <div class="str">
+                                    <div class="left">
+                                        <span><i class="far fa-heart"></i> WISHLIST</span>
+                                    </div>
+                                    <div class="right">
+                                        <span><i class="far fa-shopping-cart"></i> ADD TO CART</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
